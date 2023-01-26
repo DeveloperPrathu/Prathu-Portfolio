@@ -3,11 +3,8 @@
   display: flex;
   height: 90vh;
   margin-top: 4rem;
-
-  /* scroll */
-  align-items: center;
 }
-/* left side */
+
 .awesome {
   display: flex;
   flex-direction: column;
@@ -82,7 +79,6 @@
   border-radius: 100%;
   border: 5px solid #ebebeb;
   display: flex;
-  align-items: center;
   justify-content: center;
   background: "none";
   box-shadow: var(--smboxShadow);
@@ -122,8 +118,6 @@
 
   .w-right {
     display: flex;
-    align-items: flex-start;
-    justify-content:start;
     transform: scale(0.7);
   }
   .w-mainCircle{
